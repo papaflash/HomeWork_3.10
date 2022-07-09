@@ -19,7 +19,7 @@ namespace Task03_SimpleNum
                 Console.WriteLine("Вы ввели не допустимое значение!");
                 return;
             }
-            if (_num <= 2 && _num >= -2) _flag = true;
+            if (_num <= 1 && _num >= -1) _flag = true;
             else if (_num < 0) _num *= -1;
             int i = _num - 1;
             while(i > 1)
